@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Przystań Łazory</title>
+
+    <link rel="stylesheet" href="css/mobile.css" type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Cookie|Libre+Baskerville:400,700|Libre+Caslon+Display&display=swap&subset=latin-ext"
+        rel="stylesheet">
+
+
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: row;
+            /* min-height: 1500px; */
+            width: 100vw;
+            background-image: url("bg1.png");
+        }
+
+        nav {
+            display: flex;
+        
+            align-items: center;
+            justify-content: space-around;
+            position: fixed;
+            height: 85px;
+            width: 100%;
+            background-color: rgba(147, 219, 114, 0.6);
+            box-shadow: 4px 4px 2px rgb(133, 166, 118);
+        }
+
+        .phone {
+            font-size: 20px;
+        }
+
+        .mail {
+            font-size: 20px;
+        }
+
+        .fb {
+            box-sizing: border-box;
+            font-size: 30px;
+            padding: 3px 1px 3px 1px;
+            border: 2px solid grey;
+            transition: .5s;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: grey;
+
+        }
+
+        div.fb:hover {
+            color: black;
+            border-color: black;
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            position: absolute;
+            z-index: -1;
+            top: 85px;
+            left: calc(50% - 567px);
+            padding-top: 4px;
+            box-shadow: 4px 2px 32px 2px green;
+        }
+
+        menu {
+            display: flex;
+            flex-direction: row;
+
+            position: absolute;
+            z-index: -1;
+            background-image: url(dark_wood.png);
+            box-shadow: 4px -4px 32px 2px green;
+            top: 890px;
+            left: calc(50% - 567px);
+            height: 840px;
+            width: 1134px;
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: space-around;
+        }
+
+
+
+        section {
+            display: flex;
+            position: absolute;
+            z-index: 0;
+            top: 1750px;
+            left: calc(50% - 566px);
+            background-image: url(dark_wood.png);
+            height: 680px;
+            width: 1134px;
+        }
+
+        footer {
+            position: absolute;
+            /* top: 1595px; */
+            /* left: 0; */
+            bottom: -1550px;
+            left: 0;
+            height: 40px;
+            width: 100%;
+
+            background-color: rgba(147, 219, 114, 0.6);
+            box-shadow: 4px 2px 32px 2px green;
+        }
+
+        h4,
+        h5 {
+            width: 100%;
+            text-align: center;
+        }
+
+        h5 {
+            padding: 5px 0;
+        }
+
+        div.location {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 15px;
+        }
+
+        iframe {
+            border-radius: 10%;
+            box-shadow: 4px 4px 22px 2px gray;
+        }
+
+        div.znak {
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            padding-left: 50px;
+        }
+
+        menu h1 {
+            color: white;
+            width: 100%;
+            font-size: 60px;
+            padding-top: 40px;
+            /* height: 10vh; */
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png"></img>
+            </div>
+            <div class="phone"><i class="icon-mobile"></i><b>+48 662 056 573</b></div>
+            <div class="mail"><i class="icon-mail-1"></i><b>marian.kmiec@gmail.com</b></div>
+            <a href="#">
+                <div class="fb"><i class=" icon-facebook"></i></div>
+            </a>
+
+        </nav>
+        <header>
+            <div class="dacza_main">
+                <img src="img/dacza.jpg"></img>
+                <!-- <span><a href="#">GALERIA</a></span> -->
+            </div>
+
+        </header>
+        <menu>
+            <h1>GALERIA</h1>
+            <div>
+                <img src="img/galeria1/img1.png" alt="dacza"></img>
+            </div>
+            <div>
+                <img src="img/galeria1/img2.png" alt="dacza"></img>
+            </div>
+            <div>
+                <img src="img/galeria1/img3.jpg" alt="dacza"></img>
+            </div>
+            <div>
+                <img src="img/galeria1/img7.jpg" alt="dacza"></img>
+            </div>
+            <div>
+                <img src="img/galeria1/img8.jpg" alt="dacza"></img>
+            </div>
+            <div>
+                <img src="img/galeria1/img8.jpg" alt="dacza"></img>
+            </div>
+
+
+        </menu>
+        <section>
+            <div class="location">
+                <p><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20314.833746541644!2d22.506933030189114!3d50.4717490865972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cccc3a88ee10d%3A0x4af1f25e699a2039!2s37-413+%C5%81azory!5e0!3m2!1spl!2spl!4v1566059901045!5m2!1spl!2spl"
+                    width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+            </div>
+            <div class="znak">
+                <img class="rz" src="img/zamosc.png"></img>
+                <img class="rz" src="img/stalowa.png"></img>
+
+            </div>
+        </section>
+        <footer>
+            <h4>&copy 2019 Przystań Łazory</h4>
+            <h5><i>Pozwól nam siebie gościć.</i></h5>
+        </footer>
+   
+
+</body>
+
+</html>

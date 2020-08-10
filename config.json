@@ -1,0 +1,52 @@
+{
+  "name": "mobile",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "767fede84586366cd7d6c835be745454",
+      "css": "mobile",
+      "code": 59392,
+      "src": "entypo"
+    },
+    {
+      "uid": "bc50457410acf467b8b5721240768742",
+      "css": "facebook",
+      "code": 62220,
+      "src": "entypo"
+    },
+    {
+      "uid": "937f4db8b6ff3348a1d9fcd5e12fd2fe",
+      "css": "mail",
+      "code": 59393,
+      "src": "iconic"
+    },
+    {
+      "uid": "a17986e457f3d85f26c9c240dfd6a4ba",
+      "css": "mail-1",
+      "code": 59394,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "874694a9126e8193bca844356d1b6328",
+      "css": "at",
+      "code": 59395,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "6b6e59e33915710a9f935b04a06d507d",
+      "css": "camera",
+      "code": 59396,
+      "src": "elusive"
+    },
+    {
+      "uid": "baa375529925294ea0a2bc889c93ba2d",
+      "css": "picture",
+      "code": 59397,
+      "src": "websymbols"
+    }
+  ]
+}
